@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "cut-blowdry",
+      "label": "Cut & Blowdry",
+      "items": [
+        { "name": "Girls", "price": "R220" },
+        { "name": "Ladies Short", "price": "R280" },
+        { "name": "Ladies Long", "price": "R400" },
+        { "name": "Boys", "price": "R90" },
+        { "name": "Gents", "price": "R140" }
+      ]
+    },
+    {
+      "id": "blowdry",
+      "label": "Blowdry",
+      "items": [
+        { "name": "Short", "price": "R220" },
+        { "name": "Long", "price": "R280" }
+      ]
+    },
+    {
+      "id": "chemical-services",
+      "label": "Chemical Services",
+      "items": [
+        { "name": "Roots Only", "prefix": "from", "price": "R400" },
+        { "name": "Full Colour", "prefix": "from", "price": "R500" },
+        { "name": "Half Highlights", "prefix": "from", "price": "R600" },
+        { "name": "Full Highlights", "prefix": "from", "price": "R700" },
+        { "name": "Brazilian", "prefix": "from", "price": "R1000" }
+      ]
+    },
+    {
+      "id": "hair-treatments",
+      "label": "Hair Treatments",
+      "items": [
+        { "name": "Add-on Treatment", "price": "R100" },
+        { "name": "Silk Hair Treatment", "prefix": "from", "price": "R320" }
+      ]
+    },
+    {
+      "id": "pensioners",
+      "label": "Pensioners",
+      "note": "Pricing on request",
+      "items": []
+    }
+  ]
+}

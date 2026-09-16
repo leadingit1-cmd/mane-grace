@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "_data/site.json"
+        label: "Salon Details"
+        name: "site"
+        fields:
+          - { label: "Salon Name", name: "salon_name", widget: "string" }
+          - { label: "Subtitle", name: "salon_subtitle", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "About Paragraph", name: "about", widget: "text" }
+          - { label: "WhatsApp Number (international, digits only, e.g. 27821234567)", name: "whatsapp_number", widget: "string" }
+          - { label: "WhatsApp Display Name", name: "whatsapp_display", widget: "string" }
+          - { label: "Address Line 1", name: "address_line1", widget: "string" }
+          - { label: "Address Line 2", name: "address_line2", widget: "string" }
+          - { label: "Google Maps Link", name: "address_map_url", widget: "string" }
+          - { label: "Instagram Handle (no @)", name: "instagram_handle", widget: "string" }
+          - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+
+  - name: "pricing"
+    label: "Price List"
+    files:
+      - file: "_data/pricing.json"
+        label: "Categories"
+        name: "pricing"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "ID (unique, lowercase-with-dashes)", name: "id", widget: "string" }
+              - { label: "Category Label", name: "label", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Service Name", name: "name", widget: "string" }
+                  - { label: "Prefix (e.g. 'from')", name: "prefix", widget: "string", required: false }
+                  - { label: "Price (e.g. R220)", name: "price", widget: "string" }
+              - { label: "Note (e.g. 'Pricing on request')", name: "note", widget: "string", required: false }
