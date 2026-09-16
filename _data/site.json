@@ -1,13 +1,13 @@
 {
-  "salon_name": "Mane & Grace",
-  "salon_subtitle": "Hair Studio",
-  "tagline": "Precision cuts and colour, styled around you.",
-  "about": "Mane & Grace is a Heidelberg hair studio built on one idea: every head of hair gets the same care and attention, whether it's a school cut or a full colour transformation. Book a chair with Megan and the team and leave looking like yourself, only sharper.",
-  "whatsapp_number": "27812117793",
-  "whatsapp_display": "Megan Clark",
-  "address_line1": "53 Fourie St",
-  "address_line2": "Heidelberg, WC",
   "address_map_url": "https://maps.app.goo.gl/zumnieiLZBeUBbw17",
+  "instagram_url": "https://www.instagram.com/maneandgracemc/",
+  "salon_name": "Mane & Grace",
+  "about": "Mane & Grace is a Heidelberg hair studio built on one idea: every head of hair gets the same care and attention, whether it's a school cut or a full colour transformation. Book a chair with Megan and the team and leave looking like yourself, only sharper.",
+  "tagline": "Precision cuts and colour, styled around you.",
+  "address_line1": "53 Fourie St",
+  "address_line2": "Heidelberg, WC - next to Pump Women's Gym",
+  "whatsapp_display": "Megan Clark",
   "instagram_handle": "maneandgracemc",
-  "instagram_url": "https://www.instagram.com/maneandgracemc/"
+  "whatsapp_number": "27812117793",
+  "salon_subtitle": "Hair Studio"
 }
