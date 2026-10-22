@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "id": "cut-blowdry",
-      "label": "Cut & Blowdry",
+      "id": "cut-blowwave",
+      "label": "Cut & Blow-wave",
       "items": [
-        { "name": "Girls", "price": "R220" },
-        { "name": "Ladies Short", "price": "R280" },
+        { "name": "Cut Only", "price": "R200" },
+        { "name": "Ladies Short", "price": "R220" },
         { "name": "Ladies Long", "price": "R400" },
-        { "name": "Boys", "price": "R90" },
-        { "name": "Gents", "price": "R140" }
+        { "name": "Gents", "price": "R140" },
+        { "name": "Beard Trim", "price": "R60" }
       ]
     },
     {
-      "id": "blowdry",
-      "label": "Blowdry",
+      "id": "blowwave",
+      "label": "Blow-wave",
       "items": [
         { "name": "Short", "price": "R220" },
         { "name": "Long", "price": "R280" }
@@ -23,11 +23,10 @@
       "id": "chemical-services",
       "label": "Chemical Services",
       "items": [
-        { "name": "Roots Only", "prefix": "from", "price": "R400" },
-        { "name": "Full Colour", "prefix": "from", "price": "R500" },
-        { "name": "Half Highlights", "prefix": "from", "price": "R600" },
-        { "name": "Full Highlights", "prefix": "from", "price": "R700" },
-        { "name": "Brazilian", "prefix": "from", "price": "R1000" }
+        { "name": "Roots Only", "price": "R400" },
+        { "name": "Full Colour", "price": "R500" },
+        { "name": "Half Highlights", "price": "R600" },
+        { "name": "Full Highlights", "price": "R700" }
       ]
     },
     {
@@ -35,14 +34,25 @@
       "label": "Hair Treatments",
       "items": [
         { "name": "Add-on Treatment", "price": "R100" },
-        { "name": "Silk Hair Treatment", "prefix": "from", "price": "R320" }
+        { "name": "Brazilian", "price": "R1000 – R1500", "note": "Lasts 4 months" }
+      ]
+    },
+    {
+      "id": "kids",
+      "label": "Kids – Under 13",
+      "items": [
+        { "name": "Cut & Blow-wave", "price": "R180" },
+        { "name": "Haircut", "price": "R100" }
       ]
     },
     {
       "id": "pensioners",
       "label": "Pensioners",
-      "note": "Pricing on request",
-      "items": []
+      "items": [
+        { "name": "Ladies Cut & Blow-wave", "price": "R180" },
+        { "name": "Gents", "price": "R100" },
+        { "name": "Cut and Colour", "price": "R420 – R520" }
+      ]
     }
   ]
 }
