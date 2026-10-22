@@ -80,6 +80,10 @@ function renderPricing(data) {
 
         row.append(name, dots, amount);
         block.appendChild(row);
+
+        if (item.note) {
+          block.appendChild(el('p', 'price-note', item.note));
+        }
       });
     }
 
