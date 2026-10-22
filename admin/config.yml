@@ -47,4 +47,5 @@ collections:
                   - { label: "Service Name", name: "name", widget: "string" }
                   - { label: "Prefix (e.g. 'from')", name: "prefix", widget: "string", required: false }
                   - { label: "Price (e.g. R220)", name: "price", widget: "string" }
+                  - { label: "Note under the price (e.g. Lasts 4 months)", name: "note", widget: "string", required: false }
               - { label: "Note (e.g. 'Pricing on request')", name: "note", widget: "string", required: false }
