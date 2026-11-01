@@ -45,6 +45,10 @@
       "label": "Chemical Services",
       "items": [
         {
+          "name": "Refresh Highlights",
+          "price": "R400"
+        },
+        {
           "name": "Roots Only",
           "price": "R400"
         },
@@ -69,6 +73,10 @@
         {
           "name": "Add-on Treatment",
           "price": "R100"
+        },
+        {
+          "name": "Ztox Treatment",
+          "price": "R250"
         },
         {
           "name": "Brazilian",
